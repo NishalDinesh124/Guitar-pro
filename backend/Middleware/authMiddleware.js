@@ -3,7 +3,7 @@ const Admin = require("../Models/adminModel");
 const Teacher = require("../Models/teacherModel");
 const User = require("../Models/userModel");
 
-const JWT_SECRET = process.env.JWT_SECRET || 'hP1@A#s8kL3!zYx7R$9wUeVmTq2N'; // change later to env
+const JWT_SECRET = process.env.JWT_SECRET; // change later to env
 
 module.exports.authenticate = async (req, res, next) => {
  
