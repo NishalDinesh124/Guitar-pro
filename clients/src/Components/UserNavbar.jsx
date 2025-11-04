@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { IoSunny, IoMoon, IoMenu, IoClose,IoHome, IoLogOut } from 'react-icons/io5';
+import { SiGreatlearning } from "react-icons/si";
 import { MdOutlineContactSupport } from "react-icons/md";
 import { GrUserAdmin } from "react-icons/gr";
 import { RiToolsFill } from "react-icons/ri";
@@ -24,11 +25,14 @@ const Navbar = styled.nav`
 `;
 
 const Logo = styled.h3`
-   font-weight: 600;
+  font-weight: 200;
   color: ${({ theme }) => theme.heading};
   display: flex;
   align-items: center;
   height: 40px;
+  svg{
+    font-size: 50px;
+  }
    img {
     height: 115px; 
     width: auto; 
@@ -102,7 +106,7 @@ export default function UserNavbar({ toggleTheme, themeMode }) {
   };
   return (
     <Navbar>
-      <Logo><video src="/logo.mp4" autoPlay loop muted playsInline width="250" height="250" /></Logo>
+      <Logo><SiGreatlearning/></Logo>
 
       <MenuButton onClick={toggleMenu}>
         {menuOpen ? <IoClose /> : <IoMenu />}

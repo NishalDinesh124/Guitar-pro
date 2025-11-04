@@ -82,44 +82,41 @@ const Container = styled.div`
   padding: 0em 0em;
   justify-content: center;
 `;
-const primary = '#9c27b0';   // Purple
-const highlight = '#fcaf36'; // Orange-Yellow
-const muted = '#ada360';     // Olive
-const white = '#ffffff';
-const black = '#000000';
 
 const lightTheme = {
-  background: white,
-  text: black,
-  fretText: white,
-  loginBg: '#e8cfeb',
-  cardBg: '#fff7ec',
-  cardBorder: muted,
-  inputBg: '#f9f9f9',
-  placeholder: muted,
-  heading: primary,
-  buttonBg: primary,
-  buttonText: white,
-  buttonHover: '#ab47bc', // slightly lighter purple
-  watermark: '#00000033',
-  sidebarBg: '#e8cfeb',
-  playerBg: '#fff7ec',
+  background: "#eef2f6", // subtle blue-gray, modern clean look
+  text: "#1b1b1b", // dark neutral
+  fretText: "#ffffff",
+  loginBg: "#d9e8ff", // soft sky blue
+  cardBg: "#ffffff", // bright cards for clarity
+  cardBorder: "#cfd8dc", // light gray-blue border
+  inputBg: "#f6f9fc",
+  placeholder: "#9aa0a6",
+  heading: "#0047ab", // electric blue heading
+  buttonBg: "#005eff", // strong blue accent
+  buttonText: "#ffffff",
+  buttonHover: "#336fff", // slightly lighter hover blue
+  watermark: "#0000001f",
+  sidebarBg: "#11366d5c",
+  playerBg: "#f2f6fb",
 };
 
 const darkTheme = {
-  background: '#121212',
-  text: white,
-  fretText: black,
-  loginBg: '#1e1e1e',
-  cardBg: '#1f1f1f',
-  cardBorder: muted,
-  inputBg: '#2a2a2a',
-  placeholder: '#bbbbbb',
-  heading: highlight,
-  buttonBg: primary,
-  buttonText: white,
-  buttonHover: '#ab47bc',
-  watermark: '#ffffff1f',
-  sidebarBg: '#4444443b',
-  playerBg: '#2f2f2f'
+  background: "#0e0f1a", // deep navy-black
+  text: "#f5f7fa",
+  fretText: "#000000",
+  loginBg: "#1a1b29",
+  cardBg: "#1e2030", // slightly lighter panels
+  cardBorder: "#2c2f40",
+  inputBg: "#25283b",
+  placeholder: "#9da3b3",
+  heading: "#4f9cff", // neon electric blue
+  buttonBg: "#2979ff",
+  buttonText: "#ffffff",
+  buttonHover: "#3d8aff",
+  watermark: "#ffffff1a",
+  sidebarBg: "#1b1d2b",
+  playerBg: "#25283b",
 };
+
+

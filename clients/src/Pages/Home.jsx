@@ -153,7 +153,7 @@ const WelcomeText = styled.p`
 
 const TopLeftActions = styled.div`
   display: flex;
-  box-shadow: 0px 0px 6px #ab47bc, 0 1px 3px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 0px 6px #005eff, 0 1px 3px rgba(0, 0, 0, 0.08);
   background: ${({ theme }) => theme.background};
   width: 50%;
   max-width: 362px;
